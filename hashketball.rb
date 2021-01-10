@@ -1,11 +1,3 @@
-
-
-# Write your code below game_hash
-def methods(argument)
-
-end
-
-
 def game_hash
   {
     home: {
