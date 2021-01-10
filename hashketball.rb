@@ -125,6 +125,10 @@ def game_hash
   }
 end
 
+def team_names
+  game_hash.map {|key, value| value[:team_name]}
+end
+
 def shoe_size(shoe)
     game_hash.each do |team, about_team|
     about_team[:players].each do |call_about_team|
@@ -147,10 +151,6 @@ def team_colors(team_n)
       return value[:colors]
     end
   end
-end
-
-def team_names
-  game_hash.map {|key, value| value[:team_name]}
 end
 
 def player_numbers(team_n)
