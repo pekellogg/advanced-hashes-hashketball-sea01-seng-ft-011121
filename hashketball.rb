@@ -1,4 +1,11 @@
+
+
 # Write your code below game_hash
+def methods(argument)
+
+end
+
+
 def game_hash
   {
     home: {
@@ -126,4 +133,8 @@ def game_hash
   }
 end
 
-# Write code here
+def shoe_size(player_name)
+  if player_name ==
+
+  game_hash[players][:players][:shoe]
+end
